@@ -2,7 +2,7 @@
 
 ## About the project
 
-This repository mainly contains two projects
+This repository contains three projects
 
 1.  Backend API
 2.  Unit Test Project for Backend API
