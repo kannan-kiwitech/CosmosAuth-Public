@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DocumentationFile>bin\Debug\net5.0\CosmosAuth.xml</DocumentationFile>
+	  <OutputPath>bin\Debug\net5.0\</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+		<PackageReference Include="MediatR" Version="9.0.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="5.0.7" />
+		<PackageReference Include="MimeKit" Version="2.13.0" />
+		<PackageReference Include="SendGrid" Version="9.24.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+	</ItemGroup>
+</Project>
